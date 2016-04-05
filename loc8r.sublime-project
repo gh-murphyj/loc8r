@@ -1,0 +1,14 @@
+{
+	"folders":
+	[
+		{
+			"path": "app_server/views"
+		},
+		{
+			"path": "app_server"
+		},
+		{
+			"path": "."
+		}
+	]
+}
