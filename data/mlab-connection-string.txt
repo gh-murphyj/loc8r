@@ -1,0 +1,3 @@
+mongodb://mlab-jm:50ftwar33ur0@ds013310.mlab.com:13310/loc8r-jm
+
+heroku config:set MONGOLAB_URI=mongodb://mlab-jm:50ftwar33ur0@ds013310.mlab.com:13310/loc8r-jm

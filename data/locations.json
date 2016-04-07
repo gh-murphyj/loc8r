@@ -1,0 +1,32 @@
+{
+	"name": "Starcups",
+	"address": "125 Rathmines Road Upper, Rathmines, Dublin 6",
+	"rating": 3,
+	"facilities": ["Hot drinks", "Food", "Premium wifi"],	
+	"coords": [53.3168841, -6.2654047],
+	"openingTimes": [{
+		"days": "Monday - Friday",
+		"opening": "7:00am",
+		"closing": "7:00pm",
+		"closed": false
+	},{
+		"days": "Saturday",
+		"opening": "8:00am",
+		"closing": "5:00pm",
+		"closed": false
+	},{
+		"days": "Sunday",
+		"closed": true
+	}],
+	"reviews": [{
+		"author": "John Murphy",
+		"rating": 5,
+		"timestamp": ISODate("2016-04-04T23:32:18Z"),
+		"reviewText": "What a great place. I can't say enough good things about it."
+	},{
+		"author": "Chuck Norris",
+		"rating": 3,
+		"timestamp": ISODate("2016-01-02T13:22:00Z"),
+		"reviewText": "It was okay. Coffee wasn't great, but the wifi was fast."
+	}]
+}

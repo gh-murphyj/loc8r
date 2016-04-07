@@ -1,0 +1,9 @@
+{
+  "name": "Starcups",
+  "reviews": [{
+  	"author": "John Murphy",
+  	"rating": 5,
+  	"timestamp":"$date:'2013-11-20T23:32:18Z'}",
+  	"reviewText": "What a great place. I can't say enough good things about it."
+  }]
+}
