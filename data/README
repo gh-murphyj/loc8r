@@ -1,0 +1,15 @@
+Attempts to seed the database from files instead of interactively in the 
+mongo shell as it's done in the book.
+
+Tried initially to do the data as JSON and import it using mongoimport 
+of the locations.json file. This worked for the initial import but then 
+I needed to update the existing docs with another import, 
+locations-upsert.json, which caused a few problems:
+a. How to find the record to update.
+b. How to instruct MongoDB to create ObjectIDs.
+c. How to create a MongoDB date from JSON.
+
+Because of these problems I abandoned the idea and instead wrote the 
+mdb-locations.js script which can be fed to the mongo shell with a redirect:
+
+mongo < mdb-locations.js

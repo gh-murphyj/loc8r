@@ -1,5 +1,8 @@
 var mongoose = require('mongoose');
 var dbURI = 'mongodb://localhost/loc8r';
+if (process.env.NODE_ENV === 'production') {
+  dbURI = process.env.MONGOLAB_URI; // don't want to put actual URI in code for security 
+}
 
 mongoose.connect(dbURI);
 
@@ -46,3 +49,5 @@ process.on('SIGTERM', function() {
   });
 });
  
+
+ require('./locations');
